@@ -1,0 +1,20 @@
+{
+ "config": "d6f722a4d67c807d",
+ "model": "ols",
+ "scheme": "element",
+ "seed": 2,
+ "fold": 4,
+ "n_train": 17056,
+ "n_test": 4207,
+ "rmse": 18.512066918388477,
+ "r2": 0.7118968479590464,
+ "train_rmse": 17.419043522131513,
+ "n_settings": 1,
+ "best_index": 0,
+ "best_setting": {},
+ "at_grid_edge": false,
+ "inner_rmse": [],
+ "rf_trees": null,
+ "convergence_warnings": 0,
+ "seconds": 0.07056903839111328
+}

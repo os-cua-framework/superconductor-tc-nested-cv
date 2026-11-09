@@ -1,0 +1,4 @@
+scheme,best_linear,n_folds,seeds_used,n_complete_seeds,gap_mean,gap_sd,gap_se,tie
+random,ols,25,0;1;2;3;4,5,8.33283,0.270066,0.130338,False
+formula,ols,25,0;1;2;3;4,5,8.1366,0.36407,0.170872,False
+element,ols,25,0;1;2;3;4,5,4.78066,0.794986,0.363806,False

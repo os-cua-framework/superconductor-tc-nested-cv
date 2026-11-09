@@ -1,0 +1,20 @@
+{
+ "config": "ba5052bd88759368",
+ "model": "mean",
+ "scheme": "element",
+ "seed": 0,
+ "fold": 3,
+ "n_train": 17004,
+ "n_test": 4259,
+ "rmse": 35.24144273727613,
+ "r2": -0.06627123782902222,
+ "train_rmse": 34.05852607957709,
+ "n_settings": 1,
+ "best_index": 0,
+ "best_setting": {},
+ "at_grid_edge": false,
+ "inner_rmse": [],
+ "rf_trees": null,
+ "convergence_warnings": 0,
+ "seconds": 0.006356954574584961
+}

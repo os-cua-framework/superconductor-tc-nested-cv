@@ -1,0 +1,6 @@
+model,rmse_mean_random,rmse_mean_formula,rmse_mean_element,change_random_to_formula,change_random_to_element,n_seeds_random,n_seeds_formula,n_seeds_element
+mean,34.2553,34.2621,34.3118,0.00678626,0.0565319,5,5,5
+ols,17.6246,17.733,18.1994,0.108459,0.574844,5,5,5
+ridge,17.6246,17.7343,18.2169,0.109736,0.592295,5,5,5
+lasso,17.6246,17.7351,18.2071,0.110467,0.582437,5,5,5
+rf,9.29172,9.59641,13.4187,0.30469,4.12701,5,5,5
