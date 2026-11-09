@@ -1,0 +1,708 @@
+{
+  "1_shape": {
+    "rows": 21263,
+    "rows_unique_m": 21263,
+    "inputs": 81,
+    "element_columns": 86,
+    "missing_values": {
+      "X": 0,
+      "tc": 0,
+      "element_columns": 0,
+      "material": 0
+    },
+    "infinite_values": {
+      "X": 0,
+      "tc": 0,
+      "element_columns": 0
+    },
+    "non_numeric_columns": {
+      "X": [],
+      "element_columns": []
+    },
+    "constant_columns": {
+      "X": [],
+      "element_columns_never_present": [
+        "He",
+        "Ne",
+        "Ar",
+        "Kr",
+        "Xe",
+        "Pm",
+        "Po",
+        "At",
+        "Rn"
+      ]
+    },
+    "negative_element_entries": 0,
+    "rows_with_empty_composition": 0
+  },
+  "2_tc": {
+    "mean": 34.421219135352494,
+    "sd_ddof1": 34.25436244874411,
+    "min": 0.00021,
+    "median": 20.0,
+    "max": 185.0,
+    "n_tc_le_0": 0,
+    "top_10": [
+      {
+        "row": 20573,
+        "material": "H2S1",
+        "tc": 185.0
+      },
+      {
+        "row": 3985,
+        "material": "Hg0.66Pb0.34Ba2Ca1.98Cu2.9O8.4",
+        "tc": 143.0
+      },
+      {
+        "row": 5200,
+        "material": "Hg0.7Pb0.3Ba2Ca2Cu3O8",
+        "tc": 143.0
+      },
+      {
+        "row": 19039,
+        "material": "Tl0.8Hg0.2Ba2Ca2Cu3O9",
+        "tc": 137.4
+      },
+      {
+        "row": 1341,
+        "material": "Bi1.6Pb0.4Sb0.1Sr2Ca2Cu2O",
+        "tc": 136.0
+      },
+      {
+        "row": 1343,
+        "material": "Bi1.8Pb0.2Sb0.1Sr2Ca2Cu2O",
+        "tc": 136.0
+      },
+      {
+        "row": 5476,
+        "material": "Hg0.75Ba2.07Ca2.07Cu3.11O8.208",
+        "tc": 135.8
+      },
+      {
+        "row": 7105,
+        "material": "Hg1Ba2Ca2Cu3O8",
+        "tc": 135.7
+      },
+      {
+        "row": 4709,
+        "material": "Hg1Ba2Ca2Cu3O8",
+        "tc": 135.5
+      },
+      {
+        "row": 5475,
+        "material": "Hg0.75Ba2.07Ca2.07Cu3.11O8.187",
+        "tc": 135.4
+      }
+    ]
+  },
+  "3_alignment": {
+    "n_rows_tc_differs": 0,
+    "n_rows_number_of_elements_differs": 0,
+    "number_of_elements_examples": []
+  },
+  "4_pca": {
+    "pcs_for_90pct": 12,
+    "cumulative_variance_at_k_minus_1": 0.8941020607558279,
+    "cumulative_variance_at_k": 0.9086880346715103,
+    "pcs_for_95pct": 17,
+    "pcs_for_99pct": 31
+  },
+  "5_repeats": {
+    "unique_material_strings": 15542,
+    "n_strings_appearing_once": 13281,
+    "n_rows_with_repeated_string": 7982,
+    "pct_rows_with_repeated_string": 37.539387668720316,
+    "same_string_different_x": 0,
+    "same_string_different_composition": 0,
+    "unique_normalized_compositions": 15164,
+    "unique_compositions_by_rounding_decimals": {
+      "4": 15136,
+      "5": 15164,
+      "6": 15164,
+      "8": 15164,
+      "10": 15164
+    },
+    "n_rows_with_repeated_composition": 8521,
+    "pct_rows_with_repeated_composition": 40.0743074824813,
+    "n_singleton_compositions": 12742,
+    "largest_compositions": [
+      {
+        "strings": [
+          "Y1Ba2Cu3O7"
+        ],
+        "n_rows": 110
+      },
+      {
+        "strings": [
+          "Bi2Ca1Sr2Cu2O8",
+          "Bi2Sr2Ca1Cu2O8"
+        ],
+        "n_rows": 83
+      },
+      {
+        "strings": [
+          "La1.85Sr0.15Cu1O4",
+          "Sr0.15La1.85Cu1O4"
+        ],
+        "n_rows": 53
+      },
+      {
+        "strings": [
+          "B2Mg1",
+          "Mg1B2"
+        ],
+        "n_rows": 47
+      },
+      {
+        "strings": [
+          "Tl2Ba2Cu1O6"
+        ],
+        "n_rows": 45
+      },
+      {
+        "strings": [
+          "Y1Ba2Cu3O"
+        ],
+        "n_rows": 44
+      },
+      {
+        "strings": [
+          "Bi2Sr2Ca1Cu2O"
+        ],
+        "n_rows": 44
+      },
+      {
+        "strings": [
+          "Y1Ba2Cu4O8"
+        ],
+        "n_rows": 40
+      },
+      {
+        "strings": [
+          "Nd1.85Ce0.15Cu1O4"
+        ],
+        "n_rows": 32
+      },
+      {
+        "strings": [
+          "La1.8Sr0.2Cu1O4",
+          "Sr0.2La1.8Cu1O4"
+        ],
+        "n_rows": 30
+      }
+    ],
+    "compositions_with_multiple_strings": {
+      "n_compositions": 351,
+      "n_rows": 1508,
+      "n_strings": 729,
+      "extra_string_groups_vs_compositions": 378,
+      "examples": [
+        {
+          "composition": {
+            "C": 1.0
+          },
+          "n_rows": 27,
+          "strings": [
+            "C",
+            "C1",
+            "C60",
+            "C70"
+          ],
+          "tc_min": 0.37,
+          "tc_max": 52.0
+        },
+        {
+          "composition": {
+            "Nb": 0.75,
+            "Sn": 0.25
+          },
+          "n_rows": 15,
+          "strings": [
+            "Nb3Sn0.05Sn0.95",
+            "Nb3Sn0.1Sn0.9",
+            "Nb3Sn0.2Sn0.8",
+            "Nb3Sn1"
+          ],
+          "tc_min": 15.89,
+          "tc_max": 18.3
+        },
+        {
+          "composition": {
+            "Al": 0.25,
+            "Nb": 0.75
+          },
+          "n_rows": 19,
+          "strings": [
+            "Al0.25Nb0.75",
+            "Al1Nb3",
+            "Al25Nb75"
+          ],
+          "tc_min": 3.1,
+          "tc_max": 18.8
+        },
+        {
+          "composition": {
+            "V": 0.75,
+            "Ga": 0.25
+          },
+          "n_rows": 13,
+          "strings": [
+            "Ga0.25V0.75",
+            "Ga1V3",
+            "Ga25V75"
+          ],
+          "tc_min": 12.7,
+          "tc_max": 16.8
+        },
+        {
+          "composition": {
+            "Ga": 0.25,
+            "Nb": 0.75
+          },
+          "n_rows": 11,
+          "strings": [
+            "Ga0.25Nb0.75",
+            "Ga1Nb3",
+            "Ga25Nb75"
+          ],
+          "tc_min": 8.2,
+          "tc_max": 20.5
+        },
+        {
+          "composition": {
+            "Al": 0.2,
+            "Ge": 0.05,
+            "Nb": 0.75
+          },
+          "n_rows": 9,
+          "strings": [
+            "Al0.8Ge0.2Nb3",
+            "Nb0.75Al0.2Ge0.05",
+            "Nb3Al0.8Ge0.2"
+          ],
+          "tc_min": 15.0,
+          "tc_max": 20.7
+        },
+        {
+          "composition": {
+            "O": 0.588235,
+            "Cu": 0.117647,
+            "Sr": 0.117647,
+            "Ru": 0.058824,
+            "Ce": 0.029412,
+            "Eu": 0.088235
+          },
+          "n_rows": 8,
+          "strings": [
+            "Eu1.5Ce0.5Ru1Sr2Cu2O10",
+            "Eu1.5Ce0.5Sr2Ru1Cu2O10",
+            "Ru1Sr2Eu1.5Ce0.5Cu2O10"
+          ],
+          "tc_min": 32.0,
+          "tc_max": 49.0
+        },
+        {
+          "composition": {
+            "O": 0.375,
+            "V": 0.125,
+            "Fe": 0.125,
+            "As": 0.125,
+            "Sr": 0.25
+          },
+          "n_rows": 8,
+          "strings": [
+            "Fe2As2Sr4V2O6",
+            "Sr2V1Fe1As1O3",
+            "Sr4V2Fe2As2O6"
+          ],
+          "tc_min": 24.0,
+          "tc_max": 36.4
+        },
+        {
+          "composition": {
+            "S": 0.5,
+            "Cu": 0.125,
+            "Mo": 0.375
+          },
+          "n_rows": 7,
+          "strings": [
+            "Cu1.5Mo4.5S6",
+            "Cu1Mo3S4",
+            "Cu2Mo6S8"
+          ],
+          "tc_min": 10.43,
+          "tc_max": 11.8
+        },
+        {
+          "composition": {
+            "O": 0.538462,
+            "Ca": 0.076923,
+            "Cu": 0.230769,
+            "Ba": 0.076923,
+            "La": 0.076923
+          },
+          "n_rows": 6,
+          "strings": [
+            "Ca1Ba1La1Cu3O7",
+            "Ca1La1Ba1Cu3O7",
+            "La1Ba1Ca1Cu3O7"
+          ],
+          "tc_min": 47.0,
+          "tc_max": 80.0
+        }
+      ]
+    },
+    "unique_x_rows_exact": 15170,
+    "unique_x_rows_within_float_noise": 15164,
+    "same_composition_different_x": {
+      "n_compositions_exact": 6,
+      "n_rows_exact": 17,
+      "n_compositions_beyond_float_noise": 0,
+      "max_column_difference_in_sd": 8.881784197001252e-15,
+      "examples": [
+        {
+          "rows": [
+            10478,
+            11402
+          ],
+          "strings": [
+            "B2.5Nb1",
+            "B2Nb0.8"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 3.552713678800501e-15
+        },
+        {
+          "rows": [
+            10573,
+            16709
+          ],
+          "strings": [
+            "Ga0.281V0.719",
+            "Ga28.1V71.9"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 8.881784197001252e-15
+        },
+        {
+          "rows": [
+            10574,
+            16710
+          ],
+          "strings": [
+            "Ga0.296V0.704",
+            "Ga29.6V70.4"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 2.4424906541753444e-15
+        },
+        {
+          "rows": [
+            11239,
+            11240,
+            11241,
+            16293
+          ],
+          "strings": [
+            "Ag1.2Mo4.8S6",
+            "Ag1Mo4S5"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 8.881784197001252e-15
+        },
+        {
+          "rows": [
+            11379,
+            20071
+          ],
+          "strings": [
+            "Au0.3Pd0.033Te0.666",
+            "Au30Pd3.3Te66.6"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 8.881784197001252e-15
+        },
+        {
+          "rows": [
+            12540,
+            12555,
+            13294,
+            13785,
+            18517
+          ],
+          "strings": [
+            "Rh0.33Zr0.66",
+            "Rh1Zr2"
+          ],
+          "n_distinct_x": 2,
+          "max_column_difference_in_sd": 7.993605777301127e-15
+        }
+      ]
+    },
+    "same_x_different_composition": {
+      "n_x_rows_exact": 0,
+      "n_x_rows_within_float_noise": 0,
+      "examples": []
+    },
+    "near_identical_x_different_composition": {
+      "rounding_of_x_in_sd_units_decimals": 3,
+      "n_groups": 3,
+      "examples": [
+        {
+          "rows": [
+            3528,
+            7265
+          ],
+          "strings": [
+            "Y1Ba2Cu3O6.829",
+            "Y1Ba2Cu3O6.828"
+          ],
+          "tc": [
+            57.7,
+            88.0
+          ]
+        },
+        {
+          "rows": [
+            5590,
+            5591
+          ],
+          "strings": [
+            "Hg1Ba2Cu1O4.096",
+            "Hg1Ba2Cu1O4.097"
+          ],
+          "tc": [
+            95.6,
+            95.3
+          ]
+        },
+        {
+          "rows": [
+            1622,
+            6974
+          ],
+          "strings": [
+            "Bi2Sr2Ca1Cu2O8.198",
+            "Bi2Sr2Ca1Cu2O8.197"
+          ],
+          "tc": [
+            78.0,
+            74.0
+          ]
+        }
+      ]
+    }
+  },
+  "6_tc_conflicts": {
+    "n_compositions_with_2plus_rows": 2422,
+    "n_rows_in_those": 8521,
+    "tc_range_median": 2.1900000000000004,
+    "tc_range_p90": 21.3,
+    "tc_range_max": 125.0,
+    "n_range_above_10K": 562,
+    "n_range_exactly_0": 47,
+    "worst_10": [
+      {
+        "strings": [
+          "H2S1"
+        ],
+        "n_rows": 2,
+        "tc_min": 60.0,
+        "tc_max": 185.0,
+        "tc_range": 125.0
+      },
+      {
+        "strings": [
+          "Tl2Ba2Cu1O6"
+        ],
+        "n_rows": 45,
+        "tc_min": 10.0,
+        "tc_max": 117.0,
+        "tc_range": 107.0
+      },
+      {
+        "strings": [
+          "Y1Ba2Cu3O7"
+        ],
+        "n_rows": 110,
+        "tc_min": 30.3,
+        "tc_max": 130.0,
+        "tc_range": 99.7
+      },
+      {
+        "strings": [
+          "Bi2Sr2Ca1Cu2O"
+        ],
+        "n_rows": 44,
+        "tc_min": 14.6,
+        "tc_max": 97.0,
+        "tc_range": 82.4
+      },
+      {
+        "strings": [
+          "Tl1Ba2Cu1O5"
+        ],
+        "n_rows": 2,
+        "tc_min": 15.0,
+        "tc_max": 95.0,
+        "tc_range": 80.0
+      },
+      {
+        "strings": [
+          "Y1Ba1.5Sr0.5Cu3O",
+          "YBa1.5Sr0.5Cu3O"
+        ],
+        "n_rows": 5,
+        "tc_min": 11.0,
+        "tc_max": 90.0,
+        "tc_range": 79.0
+      },
+      {
+        "strings": [
+          "Y1Ba2Cu3O6"
+        ],
+        "n_rows": 5,
+        "tc_min": 13.7,
+        "tc_max": 91.1,
+        "tc_range": 77.4
+      },
+      {
+        "strings": [
+          "Bi2Ca1Sr2Cu2O8",
+          "Bi2Sr2Ca1Cu2O8"
+        ],
+        "n_rows": 83,
+        "tc_min": 25.0,
+        "tc_max": 99.0,
+        "tc_range": 74.0
+      },
+      {
+        "strings": [
+          "Hg1Ba2Cu1O4"
+        ],
+        "n_rows": 28,
+        "tc_min": 26.0,
+        "tc_max": 98.0,
+        "tc_range": 72.0
+      },
+      {
+        "strings": [
+          "Ca0.285Sr0.665Cu1O2"
+        ],
+        "n_rows": 3,
+        "tc_min": 40.0,
+        "tc_max": 110.0,
+        "tc_range": 70.0
+      }
+    ],
+    "pooled_rmse_within_composition": {
+      "rmse": 8.034077362739211,
+      "ssw": 393668.4879308492,
+      "dof": 6099,
+      "n_groups": 15164
+    },
+    "sensitivity": {
+      "pooled_rmse_within_exact_x": 8.038007330192546,
+      "pooled_rmse_within_material_string": 8.090984740361826,
+      "pooled_rmse_cuprates_only": 10.695367254556935,
+      "pooled_rmse_non_cuprates": 3.9487802251728823,
+      "cuprate_definition": "Cu > 0 and O > 0",
+      "n_cuprate_rows": 10532,
+      "share_of_ssw_from_10_largest_contributors": 0.31384340846039016
+    }
+  },
+  "7_duplicates": {
+    "x_and_tc": {
+      "extra_rows": 66,
+      "rows_involved": 131,
+      "groups": 65
+    },
+    "x_tc_and_material_string": {
+      "extra_rows": 0,
+      "rows_involved": 0,
+      "groups": 0
+    },
+    "normalized_composition_and_tc": {
+      "extra_rows": 70,
+      "rows_involved": 139,
+      "groups": 69
+    }
+  },
+  "formula_strings": {
+    "n_rows_string_disagrees_with_element_columns": 0,
+    "n_rows_bare_oxygen": 1927,
+    "pct_rows_bare_oxygen": 9.062691059587076,
+    "n_rows_bare_oxygen_with_cu": 1901,
+    "n_rows_bare_oxygen_with_o_equal_1": 1927,
+    "most_common_bare_oxygen_strings": {
+      "Y1Ba2Cu3O": 44,
+      "Bi2Sr2Ca1Cu2O": 44,
+      "Gd1Ba2Cu3O": 14,
+      "Bi2Sr1.6La0.4Cu1O": 10,
+      "Bi1.6Pb0.4Sr2Ca2Cu3O": 9,
+      "Hg1Ba2Ca2Cu3O": 9,
+      "Hg1Ba2Ca4Cu5O": 9,
+      "Er1Ba2Cu3O": 8,
+      "Ho1Ba2Cu3O": 8,
+      "Eu1Ba2Cu3O": 8
+    },
+    "note": "A bare 'O' token is stored as O = 1 in the element columns. Formulas like Y1Ba2Cu3O are physically implausible at O = 1, so this most likely means unspecified oxygen."
+  },
+  "proposal_comparison": [
+    {
+      "item": "rows",
+      "proposal": 21263,
+      "computed": 21263,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "inputs",
+      "proposal": 81,
+      "computed": 81,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "element_columns",
+      "proposal": 86,
+      "computed": 86,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "missing_values",
+      "proposal": 0,
+      "computed": 0,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "tc_mean",
+      "proposal": 34.4,
+      "computed": 34.421219135352494,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "tc_sd",
+      "proposal": 34.3,
+      "computed": 34.25436244874411,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "pcs_for_90pct",
+      "proposal": 12,
+      "computed": 12,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "unique_material_strings",
+      "proposal": 15542,
+      "computed": 15542,
+      "agrees_at_proposal_precision": true
+    },
+    {
+      "item": "pct_rows_with_repeated_string",
+      "proposal": 37,
+      "computed": 37.539387668720316,
+      "agrees_at_proposal_precision": false
+    }
+  ]
+}
